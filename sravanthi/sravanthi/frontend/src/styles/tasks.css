@@ -1,0 +1,92 @@
+.task-form {
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+}
+
+.task-item.completed .task-title {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-checkbox {
+    flex: 0 0 auto;
+}
+
+.task-content {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.task-title {
+    font-weight: 500;
+}
+
+.task-email {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.due-date {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.task-item:hover .task-actions {
+    opacity: 1;
+}
+
+.task-actions button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.task-actions button i {
+    font-size: 0.9em;
+}
+
+/* Add subtle shadow effect on hover */
+.task-actions button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add active state */
+.task-actions button:active {
+    transform: translateY(0);
+    box-shadow: none;
+} 

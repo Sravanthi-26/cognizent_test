@@ -1,0 +1,19 @@
+{
+  "name": "task-management-frontend",
+  "version": "1.0.0",
+  "description": "Task Management Frontend",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel public/index.html --port 3000",
+    "build": "parcel build public/index.html",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "parcel-bundler": "^1.12.5",
+    "@types/node": "^18.0.0"
+  }
+} 
